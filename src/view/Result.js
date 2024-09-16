@@ -25,7 +25,7 @@ const Result = () => {
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
         <h2 className="text-2xl font-semibold mb-6">Hasil Skrining Riwayat Kesehatan</h2>
         <div className="p-4 rounded-lg shadow-md border border-gray-300">
-          <h3 className="text-lg font-semibold mb-4">Info Skrining Skunder</h3>
+          <h3 className="text-lg font-semibold bg-blue-100 p-4 rounded -mx-4  mb-4 -mt-4">Info Skrining Skunder</h3>
           <table className="w-full">
             <tbody>
               <tr>

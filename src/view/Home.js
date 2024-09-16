@@ -113,60 +113,62 @@ const Home = () => {
               <option value="Sarjana">Sarjana</option>
             </select>
           </div>
-          <div className="p-4 mb-4 border border-gray-300 rounded-lg ">
-          <h3 className="text-lg font-semibold mb-2 bg-blue-100 p-3 rounded">Keluarga yang bisa dihubungi</h3>
-          <div className="mb-4">
-            <label className="block text-gray-700 font-bold mb-2" htmlFor="familyContact.name">
-              Nama
-            </label>
-            <input
-              id="familyContact.name"
-              name="familyContact.name"
-              value={formData.familyContact.name}
-              onChange={handleChange}
-              placeholder="Nama Lengkap"
-              className="w-full p-2 border border-gray-300 rounded"
-            />
-          </div>
-          <div className="mb-4">
-            <label className="block text-gray-700 font-bold mb-2" htmlFor="familyContact.address">
-              Alamat Rumah
-            </label>
-            <input
-              id="familyContact.address"
-              name="familyContact.address"
-              value={formData.familyContact.address}
-              onChange={handleChange}
-              placeholder="Alamat Rumah"
-              className="w-full p-2 border border-gray-300 rounded"
-            />
-          </div>
-          <div className="mb-4">
-            <label className="block text-gray-700 font-bold mb-2" htmlFor="familyContact.phone">
-              No Telepon/HP
-            </label>
-            <input
-              id="familyContact.phone"
-              name="familyContact.phone"
-              value={formData.familyContact.phone}
-              onChange={handleChange}
-              placeholder="No Telepon/HP"
-              className="w-full p-2 border border-gray-300 rounded"
-            />
-          </div>
-          <div className="mb-4">
-            <label className="block text-gray-700 font-bold mb-2" htmlFor="familyContact.email">
-              Email
-            </label>
-            <input
-              id="familyContact.email"
-              name="familyContact.email"
-              value={formData.familyContact.email}
-              onChange={handleChange}
-              placeholder="Email"
-              className="w-full p-2 border border-gray-300 rounded"
-            />
-          </div>
+          <div className="p-4 mb-4 border border-gray-300 rounded-lg">
+            <h3 className="text-lg font-semibold mb-2 bg-blue-100 p-3 rounded -mx-4 -mt-4 px-8 py-3">
+              Keluarga yang bisa dihubungi
+            </h3>
+            <div className="mb-4">
+              <label className="block text-gray-700 font-bold mb-2" htmlFor="familyContact.name">
+                Nama
+              </label>
+              <input
+                id="familyContact.name"
+                name="familyContact.name"
+                value={formData.familyContact.name}
+                onChange={handleChange}
+                placeholder="Nama Lengkap"
+                className="w-full p-2 border border-gray-300 rounded"
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block text-gray-700 font-bold mb-2" htmlFor="familyContact.address">
+                Alamat Rumah
+              </label>
+              <input
+                id="familyContact.address"
+                name="familyContact.address"
+                value={formData.familyContact.address}
+                onChange={handleChange}
+                placeholder="Alamat Rumah"
+                className="w-full p-2 border border-gray-300 rounded"
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block text-gray-700 font-bold mb-2" htmlFor="familyContact.phone">
+                No Telepon/HP
+              </label>
+              <input
+                id="familyContact.phone"
+                name="familyContact.phone"
+                value={formData.familyContact.phone}
+                onChange={handleChange}
+                placeholder="No Telepon/HP"
+                className="w-full p-2 border border-gray-300 rounded"
+              />
+            </div>
+            <div className="mb-4">
+              <label className="block text-gray-700 font-bold mb-2" htmlFor="familyContact.email">
+                Email
+              </label>
+              <input
+                id="familyContact.email"
+                name="familyContact.email"
+                value={formData.familyContact.email}
+                onChange={handleChange}
+                placeholder="Email"
+                className="w-full p-2 border border-gray-300 rounded"
+              />
+            </div>
           </div>
           
           <button type="button" onClick={handleNext} className="w-full bg-blue-500 text-white p-2 rounded">
